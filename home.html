@@ -11,6 +11,10 @@
     <!-- Font Awesome Icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="home.css">
 
     <title>Help Desk Kiosk</title>
@@ -25,12 +29,19 @@
 
         <!-- part of navbar that collapses -->
         <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Align left -->
             <u1 class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link active" href="">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="home.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Help</a>
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+            </u1>
+            <!-- Align right -->
+            <u1 class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
                 </li>
             </u1>
         </div>
@@ -41,11 +52,11 @@
 		<div class="row align-items-center">
 			<div class="col-lg-12">
 			<div id="content">
-				<h1>Help Desk Self-Serve Kiosk</h1>
+				<h1>Help Desk Kiosk</h1>
 				<h3>Computer Difficulties?</h3>
 				<!-- horizontal rule -->
-				<hr>
-				<button class="btn btn-light"><i class="fa fa-laptop"></i> Get Started!</button>
+                <hr>
+                <a class="btn btn-light" href="help.html"><i class="fa fa-laptop"></i> Get Help Now!</a>
 			</div>
 			</div>
 		</div>
