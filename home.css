@@ -1,7 +1,7 @@
 body {
     background-image: url(imgs/forestRidge.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -9,9 +9,9 @@ body {
 }
 
 /* Makes background cover fill */
-html {
+/* html {
     height: 100%;
-}
+} */
 
 #navMain {
     background-color: #2b4d29;
@@ -35,4 +35,16 @@ html {
     background-color: white;
     opacity: 50%;
     width: 400px;
+}
+
+#accordionContent {
+    color: black;
+}
+
+.accordion>.card .card-header {
+    background-color: #2b4d29;
+}
+
+.btn-link {
+    color: white; 
 }
