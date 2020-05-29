@@ -57,11 +57,21 @@ html, body {
 form {
     background-color: #2b4d29; 
     color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+form#ticketing {
     margin-top: 3%;
     margin-left: 7%;
     margin-right: 7%;
     padding: 1.5rem;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
+}
+
+form#credentials {
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1.5rem;
 }
