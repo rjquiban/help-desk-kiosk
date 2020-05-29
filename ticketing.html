@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Font Awesome Icons -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="home.css">
+
+    <title>Help Desk Kiosk - Ticketing</title>
+</head>
+<body>
+    <!-- Navbar copied with active link switched to Ticketing :) -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navMain">
+        <a class="navbar-brand" href="home.html">Help Desk</a>
+        <!-- When navbar shrinks, brings up hamburger icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- part of navbar that collapses -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Align left -->
+            <u1 class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Help<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="ticketing.html">Ticketing</a>
+                </li>
+            </u1>
+            <!-- Align right -->
+            <u1 class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </u1>
+        </div>
+    </nav>
+
+    <div class="row mx-0">
+        <div class="col-12 justify-content-center">
+            <!-- Ticketing Form -->
+            <div class="container-fluid">
+            <form>
+                <!-- Serial number -->
+                <div class="form-group">
+                    <label for="serialNumber">Serial number of Laptop</label>
+                    <input class="form-control" id="serialNumber" placeholder="MP******">
+                    <small id="serialNumberHelp" class="form-text text-muted">This is found on the barcode on the back of your computer.</small>
+                </div>
+
+                <!-- Issue selector -->
+                <div class="form-group">
+                    <label for="issue">Please select an issue below</label>
+                    <select class="form-control" id="issue">
+                        <option>--</option>
+                        <option>Cracked screen</option>
+                        <option>Broken keyboard</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <!-- Description box -->
+                <div class="form-group">
+                    <label for="description">Further details</label>
+                    <textarea class="form-control" id="description" rows="3"></textarea>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

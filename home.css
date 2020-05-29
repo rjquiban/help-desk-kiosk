@@ -53,3 +53,15 @@ html, body {
 .btn-link {
     color: white; 
 }
+
+form {
+    background-color: #2b4d29; 
+    color: white;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
