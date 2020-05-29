@@ -9,9 +9,9 @@ body {
 }
 
 /* Makes background cover fill */
-/* html {
+html, body {
     height: 100%;
-} */
+}
 
 #navMain {
     background-color: #2b4d29;
@@ -39,6 +39,11 @@ body {
 
 #accordionContent {
     color: black;
+}
+
+#heading {
+    font-weight: 200;
+    color: white; 
 }
 
 .accordion>.card .card-header {
